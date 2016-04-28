@@ -32,7 +32,7 @@ if (null !== $userID) {
 
     $attributes = array(
         'voice' => 'alice',
-        'language' => 'en-GB'
+        'language' => 'en'
     );
 
     $time = "";
