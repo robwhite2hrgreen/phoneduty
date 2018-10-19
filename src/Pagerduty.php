@@ -29,7 +29,7 @@ class Pagerduty {
      */
     public function __construct($APItoken, $domain) {
         $this->APItoken = $APItoken;
-        $this->URL = "https://{$domain}.pagerduty.com/api/v1";
+        $this->URL = "https://{$domain}.pagerduty.com/api/v2";
 
         $this->httpClient = new \GuzzleHttp\Client(
             array('defaults' =>
